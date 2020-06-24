@@ -7,15 +7,30 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+/* Centrer les textes qui remplacent les images */
+.text_new {
+    width: 70%;
+    text-align: center;
+}
+
+.text_new__italic {
+    font-style: italic;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
-    outline: none!important;
+    outline: none!important; 
 }
 
 a:hover {
     text-decoration: none;
     cursor: pointer;
+    /* Animations des liens cliquables */
+    transition: transform 300ms cubic-bezier(.48,.01,.63,1.02);
+    opacity: 1; 
+    transform: scale(1.05);
+    opacity: 0.9;
 }
 
 #page-loading-blocs-notifaction {
@@ -677,7 +692,8 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
+    color: #000000;
 }
 
 .tight-width-whitespace {
