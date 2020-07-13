@@ -1,4 +1,4 @@
 User-Agent: *
 Disallow: /contact.html
 Disallow: /google49be3dc2b3129c6a.html
-Sitemap: https://github.com/onig2217/SEOlaChouetteAgence
+Sitemap: https://onig2217.github.io/SEOlaChouetteAgence/sitemap.xml
