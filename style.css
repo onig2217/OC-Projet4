@@ -31,6 +31,9 @@ a:hover {
     opacity: 1; 
     transform: scale(1.05);
     opacity: 0.9;
+    
+}
+nav a:hover {
     color: #F3976C!important;
 }
 
@@ -805,7 +808,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #000!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -1064,4 +1067,11 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+@font-face {
+    font-family:'Glyphicons Halflings';
+    src:url(../fonts/glyphicons-halflings-regular.eot);
+    src:url(../fonts/glyphicons-halflings-regular.eot?#iefix) format('embedded-opentype'),url(../fonts/glyphicons-halflings-regular.woff2) format('woff2'),url(../fonts/glyphicons-halflings-regular.woff) format('woff'),url(../fonts/glyphicons-halflings-regular.ttf) format('truetype'),url(../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format('svg');
+    font-display: swap;
 }
