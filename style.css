@@ -852,6 +852,15 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation2.jpg");
 }
+.pb-1 {
+    padding-bottom: 0.3rem;
+}
+.ml-3 {
+    margin-left: 2.6rem;
+}
+.bolder {
+    font-weight: bold;
+}
 
 @media (max-width: 1024px) {
     .bloc {
